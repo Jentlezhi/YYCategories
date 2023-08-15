@@ -352,6 +352,10 @@ extern void YY_HSL2HSB(CGFloat h, CGFloat s, CGFloat l,
  Readable colorspace string.
  */
 @property (nullable, nonatomic, readonly) NSString *colorSpaceString;
+/**
+ Random color.
+ */
++ (instancetype)randomColor;
 
 @end
 
